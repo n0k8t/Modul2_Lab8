@@ -31,15 +31,27 @@ int main()
     int arr[] = {122, 228, 0, -1, -500, 1000, 21, 1, 2, 3, 4};
     print(&arr[3], &arr[8]);
     mySort(&arr[3], &arr[8]);
-    std::cout << arr[3] << std::endl;
     print(&arr[3], &arr[8]);
 
     std::cout << std::endl;
 
     print(&arr[0], &arr[10]);
     mySort(&arr[0], &arr[10]);
-    std::cout << arr[0] << std::endl;
     print(&arr[0], &arr[10]);
+
+    std::cout << std::endl << std::endl;
+
+
+    double ARR[] = {1.0, 228.0, 0.0, -1.1, -500.0, 1000.0, 21.0, 11.0, 2.0, -3000.0, 4.0};
+    print(&ARR[3], &ARR[8]);
+    mySort(&ARR[3], &ARR[8]);
+    print(&ARR[3], &ARR[8]);
+
+    std::cout << std::endl;
+
+    print(&ARR[0], &ARR[10]);
+    mySort(&ARR[0], &ARR[10]);
+    print(&ARR[0], &ARR[10]);
 
     return 0;
 }
