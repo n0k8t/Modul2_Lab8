@@ -6,7 +6,7 @@ void mySort(IT begin, IT end)
 
     for(IT  i = begin; i != end; ++i)
     {
-        for(IT  k = i + 1; k != end; ++k)
+        for(IT  k = i; k != end; ++k)
         {
             if (*i > *k)
             {
